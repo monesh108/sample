@@ -1,0 +1,14 @@
+FROM python:3.9-slim
+WORKDIR /python
+COPY . /python
+CMD ["python", "python.py"]  
+
+this is docker file and 
+create a simple python cde
+mkdir 
+cd
+docker build -t directory  name .
+docker images  .
+docker tag directory name username / directory name
+docker pull username / directory name
+docker push username/ directory name 
