@@ -1,0 +1,14 @@
+git clone <path>
+cd <rep_name>
+git branch
+git checkout -b <branchname>
+git branch
+git status
+in vs codes change any codes by open folder -> repository name -> select any code.
+git add <file_name>
+git commit "    "
+git push origin <branch_name>
+open GitHub
+compare & pull request
+add tittle
+pull request
