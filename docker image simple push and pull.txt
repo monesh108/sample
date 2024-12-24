@@ -4,11 +4,14 @@ COPY python.py /app/
 CMD ["python", "python.py"]  
 
 this is docker file and 
-create a simple python cde
+create a simple python code
+
+go to dockerrhub website -> repository -> create -> give repository_name and save .
 mkdir 
 cd
-docker build -t directory  name .
+docker build -t directory name .
 docker images  .
-docker tag directory name username / directory name
-docker pull username / directory name
-docker push username/ directory name 
+docker tag repository_name username / repository_name
+docker tag image_id username / repository_name:latest
+docker push username/ repository_name:latest 
+my username is monesh01108
