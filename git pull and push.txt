@@ -1,0 +1,11 @@
+create a GitHub repository and upload any file or readme file
+
+git clone https://github.com/username/repository.git
+cd repository name
+git branch to see branch names
+ls # to see files 
+code readme.md
+git add .
+git commit -m "anything"
+git pull origin main
+git push origin main
